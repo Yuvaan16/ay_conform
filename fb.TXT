@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDjPhUnF9GNuiTswV8hnIHjoCMwzjOqdf4",
+    authDomain: "contactform-46342.firebaseapp.com",
+    databaseURL: "https://contactform-46342.firebaseio.com",
+    projectId: "contactform-46342",
+    storageBucket: "contactform-46342.appspot.com",
+    messagingSenderId: "259398904025",
+    appId: "1:259398904025:web:7d410ee4016c3ef18436c8",
+    measurementId: "G-9G881D8V7L"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
